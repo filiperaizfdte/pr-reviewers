@@ -1,10 +1,13 @@
 {
   "name": "pr-dev",
+  "description": "Pull Request reviewers generator",
   "version": "0.1.0",
+  "author": "Filipe Raiz",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "next build && next export && vercel --prod",
     "start": "next start"
   },
   "dependencies": {

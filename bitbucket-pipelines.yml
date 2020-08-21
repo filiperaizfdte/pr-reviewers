@@ -1,0 +1,30 @@
+image: node:12.10.0
+
+<<: &install
+  caches:
+    - node
+  name: Install dependencies
+  script:
+    - yarn install --unsafe-perm
+  artifacts:
+    - node_modules/**
+
+<<: &deploy
+  name: Deploy
+  script:
+    - yarn deploy
+
+pipelines:
+  default:
+    - step:
+        <<: *install
+
+  branches:
+    master:
+      - step:
+          <<: *install
+
+      - step:
+          deployment: prod
+          <<: *deploy
+

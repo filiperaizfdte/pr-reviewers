@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Evandro Teixeira",
+    "type": "front"
+  },
+  {
+    "name": "Jorge Silva",
+    "type": "front"
+  },
+  {
+    "name": "Vitor Fernandes",
+    "type": "front"
+  },
+  {
+    "name": "Lucas Silva",
+    "type": "front"
+  },
+  {
+    "name": "Ruy Freire",
+    "type": "front"
+  },
+  {
+    "name": "Vucamberg Santos",
+    "type": "front"
+  },
+  {
+    "name": "Filipe Raiz",
+    "type": "front"
+  },
+  {
+    "name": "Dario França",
+    "type": "front"
+  },
+  {
+    "name": "Rafael Falcão",
+    "type": "back"
+  },
+  {
+    "name": "Randerson Santos",
+    "type": "back"
+  },
+  {
+    "name": "André Tachian",
+    "type": "back"
+  },
+  {
+    "name": "Eduardo Padoan",
+    "type": "back"
+  },
+  {
+    "name": "Glauber Silva",
+    "type": "back"
+  },
+  {
+    "name": "Gustavo Redi",
+    "type": "back"
+  },
+  {
+    "name": "Lucas Biason",
+    "type": "back"
+  },
+  {
+    "name": "Marcus Santos",
+    "type": "back"
+  },
+  {
+    "name": "Matheus Barbieri",
+    "type": "back"
+  },
+  {
+    "name": "Raylson Lima",
+    "type": "back"
+  },
+  {
+    "name": "Maykon Diogenes",
+    "type": "back"
+  },
+  {
+    "name": "Rodrigo Araújo",
+    "type": "back"
+  },
+  {
+    "name": "Saulo Perceval",
+    "type": "back"
+  },
+  {
+    "name": "Victor Silva",
+    "type": "back"
+  },
+  {
+    "name": "Vitor Campos",
+    "type": "back"
+  },
+  {
+    "name": "Alceu Freitas",
+    "type": "infra"
+  },
+  {
+    "name": "Lucas Perez",
+    "type": "infra"
+  },
+  {
+    "name": "Lucas Guerrero",
+    "type": "infra"
+  },
+  {
+    "name": "Lucsas Beltrame",
+    "type": "infra"
+  },
+  {
+    "name": "Paulo Firmino",
+    "type": "front"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "value": "front",
+    "name": "Front End"
+  },
+  {
+    "id": 1,
+    "value": "back",
+    "name": "Back End"
+  },
+  {
+    "id": 2,
+    "value": "infra",
+    "name": "Infra"
+  }
+]
