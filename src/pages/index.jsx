@@ -44,7 +44,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Pr reviewers generator</h1>
+        <h1 className={styles.title}>Pr reviewers generator 👾</h1>
 
         <div className={styles.grid}>
           {reviewers.length == 0 ? (
