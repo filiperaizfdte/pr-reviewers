@@ -11,7 +11,11 @@ image: node:12.10.0
 
 <<: &deploy
   name: Deploy
+  variables:
+    VERCEL_TOKEN: $VERCEL_TOKEN
+
   script:
+    - echo "User TOKEN is $VERCEL_TOKEN"
     - yarn deploy
 
 pipelines:
