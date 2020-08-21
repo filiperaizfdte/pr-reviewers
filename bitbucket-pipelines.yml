@@ -15,8 +15,7 @@ image: node:12.10.0
     VERCEL_TOKEN: $VERCEL_TOKEN
 
   script:
-    - echo "User TOKEN is $VERCEL_TOKEN"
-    - yarn deploy
+    - yarn deploy --token=$VERCEL_TOKEN
 
 pipelines:
   default:
