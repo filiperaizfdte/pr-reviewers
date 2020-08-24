@@ -39,12 +39,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Pr reviewers generator</title>
+        <title>pr reviewers generator</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Pr reviewers generator 👾</h1>
+        <h1 className={styles.title}>pr reviewers generator 👾</h1>
 
         <div className={styles.grid}>
           {reviewers.length == 0 ? (
