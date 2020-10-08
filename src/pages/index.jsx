@@ -6,7 +6,7 @@ import styles from "../styles/Home.module.css";
 import members from "../data/members.json";
 import teams from "../data/teams.json";
 
-export default function Home() {
+const Home = () => {
   const [reviewers, setReviewers] = useState([]);
   const [selectedTeam, setSelectedTeam] = useState("front");
   const [selectedQnt, setSelectedQnt] = useState(2);
@@ -108,3 +108,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default Home
